@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import express from "express";
-import { authenticateJwt, SECRET } from "../middleware/";
+import { authenticateJwt, SECRET } from "../middleware";
 import { User } from "../db";
 const router = express.Router();
 
